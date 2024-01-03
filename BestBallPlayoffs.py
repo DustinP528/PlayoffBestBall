@@ -22,7 +22,7 @@ import sys
 
 def requestWeek(stat): 
     
-    s = Service('/usr/local/bin/chromedriver') 
+    s = Service('./chromedriver') 
 
     driver = webdriver.Chrome(service=s)  
 
